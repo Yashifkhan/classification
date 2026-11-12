@@ -1,0 +1,88 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset and data files
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.sqlite
+*.db
+
+# Trained ML models
+models/
+*.pkl
+*.joblib
+*.pickle
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+# Mac system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Dataset files
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+
+# ML models
+models/
+*.pkl
+*.joblib
+*.pickle
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
