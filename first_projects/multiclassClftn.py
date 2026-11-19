@@ -169,5 +169,7 @@ print("\nPrediction Probabilities:")
 
 classes = lr_model.named_steps["classifier"].classes_
 
-for class_name, probability in zip(classes, probabilities[0]):
-    print(f"Class {class_name}: {probability * 100:.2f}%")
+# for class_name, probability in zip(classes, probabilities[0]):
+    # print(f"Class {class_name}: {probability * 100:.2f}%")
+
+print("test commit :")

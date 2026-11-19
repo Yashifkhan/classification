@@ -32,6 +32,7 @@ df = pd.read_csv(
 df.to_csv(
     "../data/zoo/zoo.names",
     index=False
+    
 )
 
 print("Dataset created successfully!")
